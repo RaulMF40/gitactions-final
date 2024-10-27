@@ -1,4 +1,4 @@
-//* creamos un servidor web utilizando Express, definimos la ruta GET /, que nos devuelve un mensaje en formato json y una ruta post que tambien nos devuelve en formato json, y exportamos la aplicación para que pueda ser utilizada en otros modulo en el caso de index.js 
+//* creamos un servidor web utilizando el framework Express, definimos la ruta GET /, que nos devuelve un mensaje en formato json y una ruta post que tambien nos devuelve en formato json, y exportamos la aplicación para que pueda ser utilizada en otros modulo en el caso de index.js 
 const express = require('express')
 const app = express()
 app.use(express.json())
